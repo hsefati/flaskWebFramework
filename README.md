@@ -83,7 +83,6 @@ To improve our work here, the following points could be considered:
 * Design and add the interactive prediction GUI to the app, so the user can interact with the app directly via web.
 
 ## Demo 
-
-<TODO: Add link Screencast on YouTube>
+ [Demo](https://youtu.be/h2KhvCdFfCA)
 
 
