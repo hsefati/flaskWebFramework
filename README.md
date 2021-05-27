@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/hsefati/flaskWebFramework/workflows/Python application test with Github Actions/badge.svg)](https://github.com/hsefati/flaskWebFramework/workflows/actions)
+
 # Overview
 
 In this project, we want to setup an app service in azure cloud. The app contain pre-trained sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. To deploy the app and deliver it to production, we use azure pipeline to build, test and deliver the product to app serivce of the azure.
