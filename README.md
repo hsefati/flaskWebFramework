@@ -96,6 +96,25 @@ you will see the following in the browser:
 [{"machineName":"RD0004FFD326E3_default","lastUpdated":"2021-05-17T17:10:22.3423387Z","size":18967,"href":"https://flask-web-framework.scm.azurewebsites.net/api/vfs/LogFiles/2021_05_17_RD0004FFD326E3_default_docker.log","path":"/home/LogFiles/2021_05_17_RD0004FFD326E3_default_docker.log"},{"machineName":"RD0004FFD326E3","lastUpdated":"2021-05-17T18:10:30.4568187Z","size":4439,"href":"https://flask-web-framework.scm.azurewebsites.net/api/vfs/LogFiles/2021_05_17_RD0004FFD326E3_docker.log","path":"/home/LogFiles/2021_05_17_RD0004FFD326E3_docker.log"}]
 ```
 
+# Run Locust on Local machine
+* To install locust 
+```bash
+pip install locust
+```
+* In root directory of the project run locust by 
+```bash 
+locust
+```
+After running the locust, open your browser and open "localhost:8089", which lead you to locut first page  
+<img src="images/locust_0.png"  width="1000"/>  
+Enter the following information:
+* Number of total users to simulate: 5
+* Spawn rate: 2
+* Host: URL from your app deployment e.g. https://flask-web-framework.azurewebsites.net
+Then you should be able to the following pages:  
+<img src="images/locust_1.png"  width="1000"/>  
+<img src="images/locust_2.png"  width="1000"/>  
+
 # Enhancements
 To improve our work here, the following points could be considered:
 * Add more comprehensive testing stage to make and eventually pipeline.
