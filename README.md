@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/hsefati/flaskWebFramework/workflows/build/badge.svg)](https://github.com/hsefati/flaskWebFramework/actions)
+[![Actions Status](https://github.com/hsefati/flaskWebFramework/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/hsefati/flaskWebFramework/actions)
 
 # Overview
 
